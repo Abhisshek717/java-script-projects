@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top:10px;
+}
+.input__container{
+    display:flex;
+}
+.inp{
+    display: flex;
+    flex:1;
+    border:2px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding:10px;
+}
+button{
+    margin-top:10px;
+    width:auto;
+    padding:10px;
+    border:none;
+    color:white;
+    background-color: black;
+}
+
+.header{
+    display:flex;
+    position: relative;
+    width:auto;
+    height:10vh;
+    background-color: rgb(235, 160, 160);
+    margin-top:-10px;
+    align-items: center;
+    justify-content: center;
+}
+.header__para{
+    font-size: 30px;
+}
+.container__ans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+    border:3px dashed black;
+    height:70vh;
+    margin-top:10px;
+    border-radius: 10px;
+}
+.container__ans > h1{
+    font-size: 90px;
+}
