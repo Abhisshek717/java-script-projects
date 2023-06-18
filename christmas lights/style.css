@@ -1,0 +1,45 @@
+.wire{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top:3px solid black;
+}
+.one,.two,.three,.four,.five,.six,.seven{
+    border:3px solid black;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: aqua;
+    transition-property: all;
+    transition-duration:250ms;
+}
+
+.one:hover,.three:hover,.five:hover,.seven:hover{
+    background-color: yellow;
+    transition-duration: 1000ms;
+    box-shadow: rgb(255, 255, 0) 0px 22px 70px 4px;
+}
+.two:hover,.four:hover,.six:hover{
+    background-color:red;
+    transition-duration: 1000ms;
+    box-shadow: rgb(255, 0, 0) 0px 22px 70px 4px;
+}
+.btn{
+    padding:10px;
+    margin-top:50px;
+    display: flex;
+    gap:10px;
+}
+.btn > button{
+    width:100px;
+    height:50px;
+    border:none;
+}
+
+.btn > button:hover{
+    width:100px;
+    height:50px;
+    border:none;
+    background-color: black;
+    color: white;
+}
