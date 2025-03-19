@@ -1,0 +1,40 @@
+.container{
+
+
+    margin:0;
+    padding: 0;
+    height:90vh;
+}
+
+.display{
+    width:100%;
+    height:20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.input{
+    display:flex;
+    align-items: center;
+    gap:5px;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.input > input{
+    width:250px;
+    height:50px;
+    padding-left:20px;
+    outline:none;
+}
+.input > button{
+    width:100px;
+    height:54.5px;
+    border:none;
+    background:black;
+    color:white;
+    font-weight: bold;
+}
